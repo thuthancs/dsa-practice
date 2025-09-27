@@ -138,4 +138,4 @@ return s
 ### Iteration
 
 - Time Complexity: O(N) because of N/2 swaps
-- Space Complexity: O(N) because no space is needed to store the output
+- Space Complexity: O(1) because no space is needed to store the output

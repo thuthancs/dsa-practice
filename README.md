@@ -4,14 +4,18 @@ This repo consists of my own categorization of coding interview questions. I col
 I organize the questions in order, meaning **you need to solve them in the order presented**, because subsequent questions are built upon the answers to those that come before. For some patterns that utilize the same data structure, such as trees, I also intentionally organize them in order (e.g., you need to know how to traverse a tree before learning how to search for a specific value in the tree). This approach helps me reinforce my understanding and notice repeated mistakes I make under the same theme.
 
 # 📘 Table of Contents
-- [Reversal Pattern](#reversal-pattern)
+- [Reversal in String/List](#reversal-pattern)
   - [Two Pointers](#two-pointers)
     - [String](#string)
     - [Linked List](#linked-list)
-- [Tree Traversal Pattern](#tree-traversal-pattern)
+- [Tree Traversal](#tree-traversal-pattern)
   - [Breadth-first Search (BFS)](#breadth-first-search)
   - [Depth-first Search (DFS)](#depth-first-search)
-- [Search in Trees Pattern](#search-in-trees-pattern)
+- [Search in Trees](#search-in-trees-pattern)
+- [Dynamic Programming](#dynamic-programming)
+  - [Find Optimal Solution](#find-optimal-solution)
+  - [Enumeration](#enumeration)
+- [My Favourite List](#my-favourite-list)
 
 # Reversal Pattern
 > Reversal pattern often asks you to **change the order of items or swap them** in different data structures.
@@ -21,6 +25,7 @@ I organize the questions in order, meaning **you need to solve them in the order
 - [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)
 - [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)
 - [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
+- [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
   
 Common pitfalls I made so you don't have to: 
 - Forgot to convert a string into a list before performing the swap. Because a string is immutable, we cannot modify it directly.
@@ -36,7 +41,7 @@ Common pitfalls I made so you don't have to:
 - [1721. Swapping Nodes in a Linked List](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/)
 
 Common pitfalls I made so you don't have to:
-- The trickiest part of reversing a linked list is to keep track of the reassignment of the head/left nodes and right/end nodes. The best solution I found for this problem is to visualize/draw every step out for the first few problems that you do, instead of just half-dry-running the example. You must internalize the reassignment mechanism before you can proceed to more complex problems.
+- The trickiest part of reversing a linked list is to keep track of the reassignment of the head/left nodes and right/end nodes. The best solution I found for this problem is to visualise or draw every step for the first few problems you do, instead of just half-dry-running the example. You must internalize the reassignment mechanism before you can proceed to more complex problems.
 - Carefully read the problem to see whether it asks you to swap the values only or to change the pointers/references of the nodes.
 
 # Tree Traversal Pattern
@@ -57,3 +62,28 @@ Common pitfalls I made so you don't have to:
 - [270. Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/description/)
 - [272. Closest Binary Search Tree Value II](https://leetcode.com/problems/closest-binary-search-tree-value-ii/description/)
 - [2476. Closest Nodes Queries in a Binary Search Tree](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree/description/)
+
+# Recursion
+## Backtracking
+- [77. Combinations](https://leetcode.com/problems/combinations/description/)
+  - [39. Combination Sum](https://leetcode.com/problems/combination-sum/description/)
+  - [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
+  - [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
+
+# Dynamic Programming
+## Find Optimal Solution
+- [322. Coin Change](https://leetcode.com/problems/coin-change/description/)
+  
+## Enumeration
+> The process of **generating or listing all possible solutions** to an optimization problem that a DP algorithm solves, rather than just finding the optimal one.
+
+- [518. Coin Change II](https://leetcode.com/problems/coin-change-ii/description/)
+  - [377. Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/description/)
+- [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/)
+  - [63. Unique Paths II](https://leetcode.com/problems/unique-paths/description/)
+  - [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/)
+
+# My Favourite List
+> This list consists of my favourite problems, problems that made me say "Wow, I've never thought of that!" when I looked at the solution and those that have some practical applications
+- [72. Edit Distance](https://leetcode.com/problems/edit-distance/description/)
+- [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)

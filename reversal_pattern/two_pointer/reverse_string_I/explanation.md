@@ -33,7 +33,7 @@ Output: ["h","a","n","n","a","H"]
 
 ## Plan
 
-![Figure 1. Visualization of what I thought the solution should be.](/recursion/diagram.png)
+![Figure 1. Visualization of what I thought the solution should be.](diagram.png)
 
 Figure 1. Visualization of what I thought the solution should be.
 
@@ -94,7 +94,7 @@ def reverse_string(s):
 
 ### Second Attempt
 
-![Figure 2. Correct implementation](/recursion/revised_diagram.png)
+![Figure 2. Correct implementation](revised_diagram.png)
 
 ```python
 def reverse_string(s):

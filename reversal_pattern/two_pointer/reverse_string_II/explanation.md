@@ -35,6 +35,8 @@ Because it has to do with reversal, I think we can use **two-pointer** approach 
 
 ## Implement
 
+### First Attempt
+
 ```python
 def reverse_string(s, k):
     def helper(s, l, r):
@@ -56,6 +58,35 @@ def reverse_string(s, k):
     return ''.join(s)
 ```
 
+### Second Attempt
+
+```python
+class Solution:
+    def reverseStr(self, s: str, k: int) -> str:
+        s = list(s)
+        n = len(s)
+
+        def helper(l, r):
+            while l < r:
+                s[l], s[r] = s[r], s[l]
+                l += 1
+                r -= 1
+
+        for i in range(0, n, 2*k):
+            if len(s[i:]) < k:
+                helper(i, n-1)
+            else:
+                helper(i, i + k -1)
+
+        return "".join(s)
+```
+
 ## Review
 
+- My original attempt returned "list index out of range" error because the indices got messed up when I tried to pass in the substring that needs to be swap. If the substring has a length of 2 and the left pointer is 4 and the right pointer is 6, then the error occurs. As a result, passing the substring is not a good idea.
+- Then I realized that I could just use the original array of string and update the left and right pointer as I go. It turned out to be pretty simple.
+
 ## Evaluate
+
+- Time Complexity: O(n) because of the operation that transforms a string into a list of characters, and the swapping operation takes at max O(N // k) operations, same as the for loop
+- Space Complexity: O(n) because of the array that is used to store all the letters of the string

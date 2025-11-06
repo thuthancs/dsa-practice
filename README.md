@@ -40,6 +40,7 @@ Common pitfalls I made so you don't have to:
 - Forgot to convert a string into a list before performing the swap. Because a string is immutable, we cannot modify it directly.
 - Forgot to use a while loop for the swapping logic, but used an `if` statement, so the swapping only occurs once.
 - Once in a while, did not handle the index and the bounds of the index well, so got the error of list index out of range.
+- When working with problems that require swapping only a portion of the string, I messed up the indices by passing the substring that needs to be swapped into the helper function. Instead, I learned that we should only care about locating the left and right pointers correctly instead of slicing the original string to get the substring.
 
 ### Linked List
 

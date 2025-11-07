@@ -120,6 +120,8 @@ Common pitfalls I made so you don't have to:
   - [ ] [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
   - [ ] [337. House Robber III](https://leetcode.com/problems/house-robber-iii/description/)
 - [ ] [322. Coin Change](https://leetcode.com/problems/coin-change/description/)
+- [ ] [256. Paint House](https://leetcode.com/problems/paint-house/description/)
+- [ ] [265. Paint House II](https://leetcode.com/problems/paint-house-ii/description/)
 
 ## Enumeration
 
@@ -130,6 +132,11 @@ Common pitfalls I made so you don't have to:
 - [ ] [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/)
   - [ ] [63. Unique Paths II](https://leetcode.com/problems/unique-paths/description/)
   - [ ] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/)
+
+## Subsequence
+
+- [ ] [516. Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/description/)
+- [ ] [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)
 
 # OOP
 

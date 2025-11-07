@@ -73,6 +73,25 @@ Common pitfalls I made so you don't have to:
 - [ ] [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
 - [ ] [589. N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)
 - [ ] [590. N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)
+- [ ] [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
+
+## Find Depth of a Tree
+
+- [ ] [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
+- [ ] [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/description/)
+- [ ] [559. Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/)
+- [ ] [112. Path Sum](https://leetcode.com/problems/path-sum/description/)
+
+## Tree Construction
+
+- [ ] 105. Construct Binary Tree from Preorder and Inorder Traversal
+- [ ] 106. Construct Binary Tree from Inorder and Postorder Traversal
+
+## Tree (De)serialization
+
+- [ ] 297. Serialize and Deserialize Binary Tree
+- [ ] Serialize and Deserialize N-ary Tree
+- [ ] Encode N-ary Tree to Binary Tree
 
 # Search in Trees Pattern
 
@@ -90,10 +109,16 @@ Common pitfalls I made so you don't have to:
   - [ ] [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/description/)
   - [ ] [216. Combination Sum III](https://leetcode.com/problems/combination-sum-iii/description/)
 
+# Graphs
+
 # Dynamic Programming
 
 ## Find Optimal Solution
 
+- [ ] Min Cost Climbing Stairs
+- [ ] [198. House Robber](https://leetcode.com/problems/house-robber/description/)
+  - [ ] [213. House Robber II](https://leetcode.com/problems/house-robber-ii/description/)
+  - [ ] [337. House Robber III](https://leetcode.com/problems/house-robber-iii/description/)
 - [ ] [322. Coin Change](https://leetcode.com/problems/coin-change/description/)
 
 ## Enumeration
@@ -106,28 +131,50 @@ Common pitfalls I made so you don't have to:
   - [ ] [63. Unique Paths II](https://leetcode.com/problems/unique-paths/description/)
   - [ ] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/)
 
+# OOP
+
 # Problems from Elements of Programming Interviews
+
 ## Arrays
+
 - [ ] The Dutch national flag problem
 - [ ] Buy and sell a stock once
 - [ ] Buy and sell a stock twice
+
 ## Strings
+
 ## Linked Lists
+
 ## Stacks & Queues
+
 ## Binary Trees
+
 ## Heaps
+
 ## Searching
+
 ## Hash Tables
+
 ## Sorting
+
 ## BSTs
+
 ## Recursion
+
 ## DP
+
 ## Greedy
+
 ## Graphs
+
 ## Parallel Computing
+
 ## Design Problems
+
 ## OOP
+
 ## Common Tools
+
 ## Advanced Problems
 
 # My Favourite List

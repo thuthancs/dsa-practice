@@ -45,8 +45,8 @@ Common pitfalls I made so you don't have to:
 
 ### Linked List
 
-- [ ] [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
-- [ ] [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
+- [x] [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+- [x] [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/description/)
 - [ ] [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
 - [ ] [2074. Reverse Nodes in Even Length Groups](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/description/)
 - [ ] [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/)

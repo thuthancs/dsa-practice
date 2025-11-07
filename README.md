@@ -4,7 +4,7 @@ This repo consists of my own categorization of coding interview questions. I col
 
 I organize the questions in order, meaning **you need to solve them in the order presented**, because subsequent questions are built upon the answers to those that come before. For some patterns that utilize the same data structure, such as trees, I also intentionally organize them in order (e.g., you need to know how to traverse a tree before learning how to search for a specific value in the tree). This approach helps me reinforce my understanding and notice repeated mistakes I make under the same theme.
 
-The problem that is marked with [x] are the one that I have added the code and explanation/thought process to the repo.
+The problems marked with [x] are the ones for which I have added code and an explanation/thought process to the repository.
 
 # 📘 Table of Contents
 
@@ -19,6 +19,7 @@ The problem that is marked with [x] are the one that I have added the code and e
 - [Dynamic Programming](#dynamic-programming)
   - [Find Optimal Solution](#find-optimal-solution)
   - [Enumeration](#enumeration)
+- [EPI Problems](#problems-from-elements-of-programming-interviews)
 - [My Favourite List](#my-favourite-list)
 
 # Reversal Pattern
@@ -40,7 +41,7 @@ Common pitfalls I made so you don't have to:
 - Forgot to convert a string into a list before performing the swap. Because a string is immutable, we cannot modify it directly.
 - Forgot to use a while loop for the swapping logic, but used an `if` statement, so the swapping only occurs once.
 - Once in a while, did not handle the index and the bounds of the index well, so got the error of list index out of range.
-- When working with problems that require swapping only a portion of the string, I messed up the indices by passing the substring that needs to be swapped into the helper function. Instead, I learned that we should only care about locating the left and right pointers correctly instead of slicing the original string to get the substring.
+- When working with problems that require swapping only a portion of the string, I messed up the indices by passing the substring that needs to be swapped into the helper function. Instead, I learned that we should only care about locating the left and right pointers correctly, rather than slicing the original string to obtain the substring.
 
 ### Linked List
 
@@ -53,7 +54,7 @@ Common pitfalls I made so you don't have to:
 
 Common pitfalls I made so you don't have to:
 
-- The trickiest part of reversing a linked list is to keep track of the reassignment of the head/left nodes and right/end nodes. The best solution I found for this problem is to visualise or draw every step for the first few problems you do, instead of just half-dry-running the example. You must internalize the reassignment mechanism before you can proceed to more complex problems.
+- The trickiest part of reversing a linked list is to keep track of the reassignment of the head/left nodes and right/end nodes. The best solution I found for this problem is to visualise or draw every step for the first few problems you do, instead of just half-dry-running the example. You must internalize the reassignment mechanism before proceeding to more complex problems.
 - Carefully read the problem to see whether it asks you to swap the values only or to change the pointers/references of the nodes.
 
 # Tree Traversal Pattern
@@ -104,6 +105,30 @@ Common pitfalls I made so you don't have to:
 - [ ] [62. Unique Paths](https://leetcode.com/problems/unique-paths/description/)
   - [ ] [63. Unique Paths II](https://leetcode.com/problems/unique-paths/description/)
   - [ ] [980. Unique Paths III](https://leetcode.com/problems/unique-paths-iii/description/)
+
+# Problems from Elements of Programming Interviews
+## Arrays
+- [ ] The Dutch national flag problem
+- [ ] Buy and sell a stock once
+- [ ] Buy and sell a stock twice
+## Strings
+## Linked Lists
+## Stacks & Queues
+## Binary Trees
+## Heaps
+## Searching
+## Hash Tables
+## Sorting
+## BSTs
+## Recursion
+## DP
+## Greedy
+## Graphs
+## Parallel Computing
+## Design Problems
+## OOP
+## Common Tools
+## Advanced Problems
 
 # My Favourite List
 

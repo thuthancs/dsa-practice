@@ -32,8 +32,8 @@ The problem that is marked with [x] are the one that I have added the code and e
 - [x] [344. Reverse String](https://leetcode.com/problems/reverse-string/description/)
 - [x] [541. Reverse String II](https://leetcode.com/problems/reverse-string-ii/description/)
 - [x] [557. Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/description/)
-- [ ] [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
-- [ ] [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
+- [x] [345. Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/)
+- [x] [151. Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/description/)
 
 Common pitfalls I made so you don't have to:
 

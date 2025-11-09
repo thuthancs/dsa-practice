@@ -152,9 +152,22 @@ Common pitfalls I made so you don't have to:
 
 ## Arrays
 
-- [ ] The Dutch national flag problem
-- [ ] Buy and sell a stock once
-- [ ] Buy and sell a stock twice
+- [x] The Dutch national flag problem
+- [x] Delete duplicates from a sorted array
+- [x] Buy and sell a stock once
+- [x] Buy and sell a stock twice
+- [ ] Computing an alternation
+- [ ] Enumerate all primes to n
+- [ ] Permute the elements of an array
+- [ ] Sample offline data
+- [ ] Sample online data
+- [ ] Compute a random permutation
+- [ ] Compute a random subset
+- [ ] Generate nonuniform random numbers
+- [ ] The Sudoku checker problem
+- [ ] Compute the spiral ordering of a 2D array
+- [ ] Rotate a 2D array
+- [ ] Compute rows in Pascal's Triangle
 
 ## Strings
 

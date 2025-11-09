@@ -8,18 +8,26 @@ The problems marked with [x] are the ones for which I have added code and an exp
 
 # 📘 Table of Contents
 
-- [Reversal in String/List](#reversal-pattern)
+- [Reversal Pattern](#reversal-pattern)
   - [Two Pointers](#two-pointers)
     - [String](#string)
     - [Linked List](#linked-list)
-- [Tree Traversal](#tree-traversal-pattern)
-  - [Breadth-first Search (BFS)](#breadth-first-search)
-  - [Depth-first Search (DFS)](#depth-first-search)
-- [Search in Trees](#search-in-trees-pattern)
+- [Tree Traversal Pattern](#tree-traversal-pattern)
+  - [Breadth-first Search](#breadth-first-search)
+  - [Depth-first Search](#depth-first-search)
+  - [Find Depth of a Tree](#find-depth-of-a-tree)
+  - [Tree Construction](#tree-construction)
+  - [Tree (De)serialization](#tree-deserialization)
+- [Search in Trees Pattern](#search-in-trees-pattern)
+- [Recursion](#recursion)
+  - [Backtracking](#backtracking)
+- [Graphs](#graphs)
 - [Dynamic Programming](#dynamic-programming)
   - [Find Optimal Solution](#find-optimal-solution)
   - [Enumeration](#enumeration)
-- [EPI Problems](#problems-from-elements-of-programming-interviews)
+  - [Subsequence](#subsequence)
+- [OOP](#oop)
+- [Problems from Elements of Programming Interviews](#problems-from-elements-of-programming-interviews)
 - [My Favourite List](#my-favourite-list)
 
 # Reversal Pattern
@@ -183,6 +191,12 @@ Common pitfalls I made so you don't have to:
 ## Common Tools
 
 ## Advanced Problems
+
+# Conceptual Questions
+
+1. What is an array?
+2. What is a linked list?
+3. What is the difference between contiguous and linked data structures?
 
 # My Favourite List
 

@@ -171,6 +171,19 @@ Common pitfalls I made so you don't have to:
 
 ## Strings
 
+- [ ] Interconvert strings and integers
+- [ ] Base conversion
+- [ ] Compute the spreadsheet column encoding
+- [ ] Replace and remove
+- [ ] Test palindromicity
+- [ ] Reverse all the words in a sentence
+- [ ] The look-and-say problem
+- [ ] Convert from Roman to decimal
+- [ ] Compute all valid IP addresses
+- [ ] Write a string sinusoidally
+- [ ] Implement run-length enconding
+- [ ] Find the first occurrence of a substring
+
 ## Linked Lists
 
 ## Stacks & Queues
@@ -204,12 +217,6 @@ Common pitfalls I made so you don't have to:
 ## Common Tools
 
 ## Advanced Problems
-
-# Conceptual Questions
-
-1. What is an array?
-2. What is a linked list?
-3. What is the difference between contiguous and linked data structures?
 
 # My Favourite List
 

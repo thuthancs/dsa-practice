@@ -121,6 +121,47 @@ For BFS question, we often utilize a queue, specifically `deque`, which is a dou
 
 # Graphs
 
+## Disjoint Set
+
+- [ ] [547. Number of Provinces](https://leetcode.com/problems/number-of-provinces/description/?envType=problem-list-v2&envId=union-find)
+- [ ] Graph Valid Tree
+- [ ] Number of Connected Components in an Undirected Graph
+- [ ] The Earliest Moment When Everyone Become Friends
+- [ ] Smallest String With Swaps
+- [ ] Evaluate Division
+- [ ] Optimize Water Distribution in a Village
+
+## DFS
+
+- [ ] Find if Path Exists in Graph
+- [ ] All Paths From Source to Target
+- [ ] Clone Graph
+- [ ] Reconstruct Itinerary
+- [ ] All Paths from Source Lead to Destination
+
+## BFS
+
+- [ ] Populating Next Right Pointers in Each Node
+- [ ] Shortest Path in Binary Matrix
+- [ ] Rotting Oranges
+
+## Minimum Spanning Tree
+
+- [ ] Min Cost to Connect All Points
+
+## Shortest Path
+
+- [ ] Network Delay Time
+- [ ] Cheapest Flights Within K Stops
+- [ ] Path With Minimum Effort
+
+## Topological Sort
+
+- [ ] Course Schedule II
+- [ ] Alien Dictionary
+- [ ] Minimum Height Trees
+- [ ] Parallel Courses
+
 # Dynamic Programming
 
 ## Find Optimal Solution
@@ -149,6 +190,13 @@ For BFS question, we often utilize a queue, specifically `deque`, which is a dou
 - [ ] [1143. Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/description/)
 
 # OOP
+
+- [ ] [LRU Cache](https://leetcode.com/problems/lru-cache/description/)
+- [ ] 460. LFU Cache
+- [ ] 604. Design Compressed String Iterator
+- [ ] 1756. Design Most Recently Used Queue
+- [ ] 635. Design Log Storage System
+- [ ] 588. Design In-Memory File System
 
 # Problems from Elements of Programming Interviews
 

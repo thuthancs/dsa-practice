@@ -76,7 +76,7 @@ Common pitfalls I made so you don't have to:
 
 For BFS question, we often utilize a queue, specifically `deque`, which is a double-ended queue - a data structure that allows efficient appending and popping (left and right) in O(1) time. I've learned that we have `appendleft()` as the method associated with `deque`.
 
-## Depth-first Searh
+## Depth-first Search
 
 - [x] [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
 - [x] [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/)

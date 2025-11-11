@@ -1,0 +1,27 @@
+class Node:
+    def __init__(
+        self, val: Optional[int] = None, children: Optional[List["Node"]] = None
+    ):
+        self.val = val
+        self.children = children
+
+
+def levelOrder(root: "Node") -> List[List[int]]:
+    output = []
+
+    if not root:
+        return output
+
+    q = deque()
+    q.append(root)
+
+    while q:
+        level = []
+        for _ in range(len(q)):
+            node = q.popleft()
+            level.append(node.val)
+            if node.children:
+                for child in node.children:
+                    q.append(child)
+        output.append(level)
+    return output
